@@ -107,7 +107,7 @@ firstString.length > secoundString.length ?
 /* WRITE YOUR ANSWER HERE */
 
 let intOrNot = 12;
-console.log(!isNaN(intOrNot))
+console.log(typeof intOrNot)
 
 
 /*EX 8
