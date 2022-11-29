@@ -106,8 +106,8 @@ firstString.length > secoundString.length ?
 
 /* WRITE YOUR ANSWER HERE */
 
-let intOrNot = 12;
-console.log(typeof intOrNot)
+let number = 1;
+console.log(number % 1 === 0)
 
 
 /*EX 8
