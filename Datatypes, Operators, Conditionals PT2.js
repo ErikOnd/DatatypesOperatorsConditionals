@@ -40,6 +40,38 @@ let num3 = 4;
 let num4 = 45;
 let num5 = 18;
 
+/*
+a,b,c
+a,c,b
+b,a,c,
+b,c,a
+c,a,b
+c,b,a
+*/
+
+if (num3 > num4 && num4 > num5) {
+    console.log(num3, num4, num5)
+}
+if (num3 > num5 && num5 > num4) {
+    console.log(num3, num5, num4)
+}
+if (num4 > num3 && num3 > num5) {
+    console.log(num4, num3, num5)
+}
+if (num3 > num4 && num4 > num5) {
+    console.log(num3, num4, num5)
+}
+if (num5 > num3 && num3 > num4) {
+    console.log(num5, num3, num4)
+}
+if (num5 > num4 && num4 > num3) {
+    console.log(num3, num4, num5)
+}
+
+
+
+
+//more advanced solution
 let numArr = [num3, num4, num5]
 
 console.log(numArr.sort(function (a, b) {
@@ -65,15 +97,8 @@ let average = (num6 + num8) / 2
 let firstString = 'What a wonderfull day';
 let secoundString = 'My secound string';
 
-if (firstString.length > secoundString.length) {
-    console.log(firstString);
-}
-else {
-    console.log(secoundString);
-}
-
-
-
+firstString.length > secoundString.length ?
+    console.log(firstString) : console.log(secoundString);
 
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
